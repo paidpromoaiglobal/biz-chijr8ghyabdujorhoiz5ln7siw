@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#8B0000">
+<title>Hyderabadi Bhai Biryani | Best Biryani in Sholinganallur, OMR Chennai</title>
+<meta name="description" content="Taste authentic Hyderabadi Dum Biryani in Chennai at Hyderabadi Bhai Biryani, Sholinganallur OMR. Rated 4.5/5, budget-friendly prices, bulk orders available. Open daily till late!">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;color:#1c1007;background:#fdfaf5;-webkit-font-smoothing:antialiased}
+.wa-float{position:fixed;bottom:24px;right:24px;z-index:9999;background:#25d366;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,0.45);text-decoration:none;transition:transform .2s}.wa-float:hover{transform:scale(1.1)}
+nav{position:fixed;top:0;left:0;right:0;z-index:900;background:rgba(253,250,245,.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(0,0,0,0.06);padding:0 5vw;display:flex;align-items:center;justify-content:space-between;height:60px}
+.nav-brand{font-family:'Playfair Display',serif;font-size:1.1rem;color:#8B0000}
+.nav-cta{background:#D4A017;color:#fff;padding:9px 20px;border-radius:50px;text-decoration:none;font-size:.85rem;font-weight:600}
+/* HERO */
+.hero{position:relative;height:100svh;min-height:580px;display:flex;align-items:flex-end;overflow:hidden}
+.hero-bg{position:absolute;inset:-15%;width:130%;height:130%;background-image:url('https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=1600&q=85&fit=crop&auto=format');background-size:cover;background-position:center top;will-change:transform}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(15,8,0,.85) 0%,rgba(15,8,0,.2) 60%,transparent 100%)}
+.hero-content{position:relative;z-index:2;padding:0 5vw 52px;color:#fff;width:100%}
+.hero-tag{display:inline-flex;gap:6px;align-items:center;background:#D4A017;padding:5px 14px;border-radius:50px;font-size:.78rem;font-weight:600;margin-bottom:16px}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(2rem,6vw,3.8rem);line-height:1.15;margin-bottom:14px}
+.hero p{font-size:clamp(.95rem,2vw,1.1rem);opacity:.85;margin-bottom:28px;max-width:520px}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn-amber{background:#D4A017;color:#fff;padding:14px 30px;border-radius:8px;text-decoration:none;font-weight:600;font-size:.95rem}
+.btn-outline{border:1.5px solid rgba(255,255,255,.55);color:#fff;padding:13px 26px;border-radius:8px;text-decoration:none;font-size:.92rem}
+/* INFO STRIP */
+.info-strip{background:#8B0000;color:#fff;display:flex;flex-wrap:wrap;justify-content:center}
+.info-item{padding:16px 24px;display:flex;align-items:center;gap:8px;font-size:.88rem;border-right:1px solid rgba(255,255,255,.1)}
+.info-item:last-child{border:none}
+/* STORY */
+section{padding:60px 5vw}
+.container{max-width:960px;margin:0 auto}
+.sec-label{font-size:.72rem;letter-spacing:.15em;text-transform:uppercase;color:#D4A017;margin-bottom:8px;font-weight:600}
+h2{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,3.5vw,2.2rem);color:#8B0000;margin-bottom:8px}
+.story-grid{display:grid;grid-template-columns:1fr;gap:32px}
+@media(min-width:768px){.story-grid{grid-template-columns:1fr 1fr;align-items:center}}
+.story-img{width:100%;aspect-ratio:5/4;object-fit:cover;border-radius:14px}
+.story-text p{color:#5a4a30;line-height:1.85;margin-bottom:14px;font-size:.95rem}
+.hl-pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.hl-pill{background:#fdf0dc;color:#8B0000;border:1px solid #f5d89e;padding:6px 14px;border-radius:50px;font-size:.82rem;font-weight:500}
+/* MENU */
+.menu-bg{background:#fff}
+.menu-grid{display:grid;grid-template-columns:1fr;gap:14px}
+@media(min-width:480px){.menu-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.menu-grid{grid-template-columns:repeat(3,1fr)}}
+.menu-card{border:1px solid #f0e5cc;border-radius:12px;padding:22px;position:relative;overflow:hidden;transition:box-shadow .2s}
+.menu-card:hover{box-shadow:0 6px 20px rgba(0,0,0,.08)}
+.menu-card:before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;background:linear-gradient(#8B0000,#D4A017)}
+.menu-card h3{font-family:'Playfair Display',serif;color:#8B0000;font-size:1.05rem;margin-bottom:8px}
+.menu-card p{color:#7a6040;font-size:.87rem;line-height:1.6}
+/* PARALLAX */
+.parallax-strip{position:relative;min-height:300px;display:flex;align-items:center;overflow:hidden}
+.pstrip-bg{position:absolute;inset:-20%;width:140%;height:140%;background-image:url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=80&fit=crop&auto=format');background-size:cover;background-position:center;will-change:transform}
+.pstrip-overlay{position:absolute;inset:0;background:linear-gradient(90deg,#8B0000f0 0%,#8B000099 60%,transparent 100%)}
+.pstrip-content{position:relative;z-index:2;padding:48px 5vw;color:#fff;max-width:500px}
+.pstrip-content h2{font-family:'Playfair Display',serif;font-size:clamp(1.5rem,3vw,2rem);margin-bottom:12px}
+.pstrip-content p{opacity:.82;margin-bottom:24px;font-size:.95rem}
+/* GALLERY */
+.food-gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+@media(min-width:600px){.food-gallery{grid-template-columns:repeat(3,1fr)}}
+.food-gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px}
+/* REVIEWS */
+.reviews-bg{background:#8B0000}
+.rv-grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:32px}
+@media(min-width:640px){.rv-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.rv-grid{grid-template-columns:repeat(3,1fr)}}
+.rv-card{background:rgba(255,255,255,.1);border-radius:12px;padding:22px;backdrop-filter:blur(4px)}
+.rv-stars{color:#fbbf24;margin-bottom:8px}
+.rv-text{color:rgba(255,255,255,.8);font-size:.9rem;line-height:1.7;font-style:italic;margin-bottom:12px}
+.rv-author{color:rgba(255,255,255,.5);font-size:.82rem;font-weight:600}
+/* CTA */
+.cta-section{background:#D4A017;color:#fff;text-align:center;padding:60px 5vw}
+.cta-section h2{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,3vw,2.2rem);margin-bottom:12px}
+.cta-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+.cta-btn-w{background:#fff;color:#D4A017;padding:13px 30px;border-radius:8px;text-decoration:none;font-weight:700}
+.cta-btn-o{border:2px solid rgba(255,255,255,.6);color:#fff;padding:12px 28px;border-radius:8px;text-decoration:none;font-weight:500}
+footer{background:#0f0a00;color:#7a6040;text-align:center;padding:22px;font-size:.8rem}
+</style>
+</head>
+<body>
+<nav>
+  <span class="nav-brand">HYDERABADi BHAi BiRYANi</span>
+  <a href="https://wa.me/919791211433?text=Hi!%20I%20came%20across%20Hyderabadi%20Bhai%20Biryani%20and%20would%20like%20to%20place%20an%20order.%20Could%20you%20please%20share%20the%20menu%20and%20availability%3F" class="nav-cta">Order Now</a>
+</nav>
+<div class="hero">
+  <div class="hero-bg" id="hp"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-tag">⭐ 4.5/5 · Google Rated</div>
+    <h1>Authentic Hyderabadi Biryani, Right in the Heart of Chennai!</h1>
+    <p>Experience the bold, aromatic flavors of Hyderabad with every spoonful — fresh, less oily, and cooked with love.</p>
+    <div class="hero-btns">
+      <a href="https://wa.me/919791211433?text=Hi!%20I%20came%20across%20Hyderabadi%20Bhai%20Biryani%20and%20would%20like%20to%20place%20an%20order.%20Could%20you%20please%20share%20the%20menu%20and%20availability%3F" class="btn-amber">Order Now &amp; Taste the Difference!</a>
+      <a href="tel:097912 11433" class="btn-outline">📞 Reserve</a>
+    </div>
+  </div>
+</div>
+<div class="info-strip">
+  <div class="info-item">📞 097912 11433</div>
+  <div class="info-item">📍 476, 119, Wipro St, Omr, Sholinganallur, Chennai, Tamil Nadu 600119, India</div>
+  <div class="info-item">🕐 Monday: 12:00 AM – 11:30 PM | Tuesday: 12:00 AM – 11:30 PM | Wednesday: 12:00 AM – 11:30 PM | Thursday: 12:00 AM – 11:30 PM | Friday: 12:00 AM – 11:30 PM | Saturday: 12:00 AM – 1:30 PM | Sunday: 12:00 AM – 11:30 PM</div>
+</div>
+<section>
+  <div class="container">
+    <div class="story-grid">
+      <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEEYl4Fise_KO0udX4k03bkYCSZ1rwEao9xbi6OKXUUMst4Z4RVeUR2u3Mli3aZR42CUvRxU8M49Z0yUy3cBvexewmLP1bpD0GmFUfIaIT7luvqH_DvBmRcZuEZpjv39peqbtyPBdKZvUOkZKbLzqvKvm2nIP2vIBpan9EkxfkQIlA0vnu8Q3rsne-AXdmzYAAxS6r8G7cf3SF7Y0o1u3aU5Lc__ze_s2REJhc1fr43uYWLaJe5Two2Tvt6LzohPOb9bIx7md-6HNSrdt3LnjEhoUX0CqWQkdvRR2lnLJTVYXg&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="HYDERABADi BHAi BiRYANi" class="story-img" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=1600&q=85&fit=crop&auto=format'">
+      <div>
+        <p class="sec-label">Our Story</p>
+        <h2>Made with Love</h2>
+        <p class="story-text" style="color:#5a4a30;line-height:1.85;margin-bottom:14px;font-size:.95rem">Hyderabadi Bhai Biryani is a beloved local gem nestled on Wipro Street, OMR, Sholinganallur, Chennai. We bring the authentic taste of Hyderabad's legendary dum biryani straight to your table — crafted with the finest spices, tender chicken, and a whole lot of passion. Whether you're craving a quick mini biryani or planning a big family feast, we've got you covered with flavors that keep you coming back for more.</p><p class="story-text" style="color:#5a4a30;line-height:1.85;margin-bottom:14px;font-size:.95rem">With a stellar 4.5-star rating and a loyal customer base, we pride ourselves on delivering great food at budget-friendly prices. From our signature Hyderabadi Biryani to our popular Chennai-style Biryani buckets for gatherings, every dish is prepared fresh and served with warm, prompt service. Visit us almost any time of the day — we're open late so your biryani cravings never have to wait!</p>
+        <div class="hl-pills"><span class="hl-pill">⭐ 4.5/5 Rating with 87 Happy Reviews</span><span class="hl-pill">🍛 Less Oily, Fresh &amp; Flavorful Biryani Cooked Daily</span><span class="hl-pill">💰 Budget-Friendly Prices Starting at ₹130</span><span class="hl-pill">🪣 Bulk Orders &amp; Bucket Packages for Events</span><span class="hl-pill">🕛 Open Almost 24 Hours, 7 Days a Week</span><span class="hl-pill">📍 Conveniently Located on OMR, Sholinganallur, Chennai</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="menu-bg">
+  <div class="container">
+    <p class="sec-label">Menu</p>
+    <h2>What We Serve</h2>
+    <div class="menu-grid" style="margin-top:32px"><div class="menu-card"><h3>Hyderabadi Dum Biryani</h3><p>Our signature slow-cooked dum biryani with aromatic spices, tender chicken, and authentic Hyderabadi flavors that melt in your mouth.</p></div><div class="menu-card"><h3>Chennai-Style Biryani</h3><p>A local favourite with a distinct Tamil Nadu touch — flavorful, mildly spiced, and perfect for those who enjoy a regional twist.</p></div><div class="menu-card"><h3>Mini Biryani</h3><p>A perfectly portioned, budget-friendly biryani starting at just ₹130 — great value for a satisfying meal on the go.</p></div><div class="menu-card"><h3>Chicken Fried Rice</h3><p>Crispy, flavorful, and budget-friendly chicken fried rice that pairs perfectly with our signature sides.</p></div><div class="menu-card"><h3>Bulk Orders &amp; Catering</h3><p>Planning a family gathering or office event? Order biryani in large buckets — we've catered 24+ biryanis with great service and fresh food every time.</p></div></div>
+  </div>
+</section>
+<div class="parallax-strip">
+  <div class="pstrip-bg" id="ps"></div>
+  <div class="pstrip-overlay"></div>
+  <div class="pstrip-content">
+    <h2>Dine With Us</h2>
+    <p>476, 119, Wipro St, Omr, Sholinganallur, Chennai, Tamil Nadu 600119, India · Monday: 12:00 AM – 11:30 PM | Tuesday: 12:00 AM – 11:30 PM | Wednesday: 12:00 AM – 11:30 PM | Thursday: 12:00 AM – 11:30 PM | Friday: 12:00 AM – 11:30 PM | Saturday: 12:00 AM – 1:30 PM | Sunday: 12:00 AM – 11:30 PM</p>
+    <a href="https://wa.me/919791211433?text=Hi!%20I%20came%20across%20Hyderabadi%20Bhai%20Biryani%20and%20would%20like%20to%20place%20an%20order.%20Could%20you%20please%20share%20the%20menu%20and%20availability%3F" style="background:#D4A017;color:#fff;padding:13px 28px;border-radius:8px;text-decoration:none;font-weight:700">💬 WhatsApp to Reserve</a>
+  </div>
+</div>
+<section><div class="container"><p class="sec-label">Gallery</p><h2>A Peek Inside</h2><div class="food-gallery" style="margin-top:28px"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEEYl4Fise_KO0udX4k03bkYCSZ1rwEao9xbi6OKXUUMst4Z4RVeUR2u3Mli3aZR42CUvRxU8M49Z0yUy3cBvexewmLP1bpD0GmFUfIaIT7luvqH_DvBmRcZuEZpjv39peqbtyPBdKZvUOkZKbLzqvKvm2nIP2vIBpan9EkxfkQIlA0vnu8Q3rsne-AXdmzYAAxS6r8G7cf3SF7Y0o1u3aU5Lc__ze_s2REJhc1fr43uYWLaJe5Two2Tvt6LzohPOb9bIx7md-6HNSrdt3LnjEhoUX0CqWQkdvRR2lnLJTVYXg&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="HYDERABADi BHAi BiRYANi" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEHidBHTFce_6CG9L6cGA_E25Utqv2tmk7XCcUqMAy6YYiKH7YX9TBKiimVbRjjPSbKlspwAYfWG5ZHKLRcrNxZ6x7aEatDvrw8schFDDA-wgBwjyBgUfmFn8zksKJJnsgkF1PJfd0Mcy9NXjgs5MnWtLRclmeLe0Pqvvt1cN4QDvRLeQWTDLatDj3dOr5xPgXrfEwgfW869pR4X3MXaQ5_J3dGqxJiMFC6xF-6KaCNMUAC1256prZ5_0wcau_lWtqBUwI8Ik3d4JYffgoFanWYS-5mIMfuEmB0SnygeYfIwcg&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="HYDERABADi BHAi BiRYANi" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEGA14nPDEXHjiFli_nyqlzabf3OMsMqBF4pRlzpH2l1F6n52ktrs7nCXCBQvwf1e60wr1xqEmuWOb2-9_C9RYyhZmLObp_zAhBq9V4SAFfc3vHxtRkctVB8W0ZcAldbkbxWPtYBFiArF6L9mc0HqtYzuPia8E6i_rexlJlvm3KwCN_ZP-Wcse0hAU-fBsRo_E1SdUKLSqEebcdZFYo8oIZJNFjMVFOxShu9lYQWlD50XA8QAOUVMCZ4WXFBDF5oYFbuuGpvZGciPbYgTnRxsL9HG8gQzOEeIfoGHILQsdMX5RjkJxDQ2GUdvRsT_bBeeTwYpOki7He84bZuENh1Elu2m_ujTmtKpLf0uZ3x0d-Ygu1kE6N38MY1NgrPqNzxFbBaKeqGFibkGlVvV3UxoedlU5r0pAwqXIFBh8NJEp0hjfoBUlf2nXCXmAutfKQp&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="HYDERABADi BHAi BiRYANi" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEGhqKj0SXX0ZXCRE1WRLCQ6MlfXOr4igOq5YUrp4VQJnSQr60O4q2c13hM9O2YaW4jCaf9jBfjyigp37igXed2Qo2H_ePJNQ-9Tk5l3WoonRXWaey84uuJNcYu98i6W71dqtCQdnoaenkLychwLWO6BCjp4DaHXGU1DbYwUzq1rCSTlIyzmiN5XCcEcUovuhPT_gfmIcsY9ACTRlM3_nADAddyoR9uWdtGXjdg01jd5Xkrvfs4w75qaqyij1S_QgA8PICrlxrwGZZCPJ-ANlq_RTjTx85NA95OvdQRvm8EIGtLovZdkb1AghGGt8ePOkb5znDbe4SJM4M1Slz--OELcHy6kqlmq_Dket4knz5adBP4RXV9KcyqqMhSBFqnuLz44mp7j0Di72pFibbKj6e34ghHtwH_gSy7bUFVHqBhaT6o&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="HYDERABADi BHAi BiRYANi" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEFq3dNCfX4wfLc6kNgXOCW3aTwCtCW-g_VDY3eeElyBMjq7e5Nw1CFx4bnKRozI_7T39zNWCQtjU0qe87H6PFYmACJKzeGB0B4bYxY3792RxYK36AewGj9K1RCgxu_KqNQb9wwEHFCHGuV5yrSiNnYYrERJsOCqwcyZctkNm0gvKT9klcYHlgCZlE3oNmus9ef3OkdQ9NELEIhTTMDQh9U2ZptXcGC-li14z3FeBEjnmZk5twrhWB8Pjh5ByzSOi2skLJhUNdgnlJtCR4-3MpkdFHjX0_pTWD2YPUVZ-PFkYUmQA3IpODKtFQnmrshh9gy4l6Ie3gite-SoXo_JC62v7Fz7m7cDDPi_Fee971GD-urd9vjgDtFxuRF8lEP3EyTC1bE8Qal0aFav0tn0dMvhEa39BgzbXQVezLqgbxY7tm31Fxhi_jpgg5tdVA&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="HYDERABADi BHAi BiRYANi" loading="lazy" onerror="this.parentElement.remove()"></div></div></section>
+<section class="reviews-bg">
+  <div class="container">
+    <p class="sec-label" style="color:rgba(255,255,255,.5)">Reviews</p>
+    <h2 style="color:#fff">Guest Stories</h2>
+    <div class="rv-grid"><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">"A small, local restaurant that instantly won me over. The food is absolutely delicious — fresh, flavorful, and prepared with great care. The atmosphere is warm and inviting, making you want to stay longer!"</p><div class="rv-author">— Piotr Warzecha</div></div><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">"I had ordered 24 Biryanis for a small family gathering — two buckets of Chennai and two buckets of Hyderabadi. Food was great, less oily! Great service as well. Would definitely recommend!"</p><div class="rv-author">— Hello Yams</div></div><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">"One of the best Hyderabadi Biryani in Chennai — very well cooked and great quantity. Absolutely worth every rupee!"</p><div class="rv-author">— Varshith</div></div><div class="rv-card"><div class="rv-stars">★★★★☆</div><p class="rv-text">"Budget-friendly chicken fried rice is nice and worth it, and the mini biryani at ₹130 is also really good value!"</p><div class="rv-author">— Vinay Malyala</div></div></div>
+  </div>
+</section>
+<div class="cta-section">
+  <p class="sec-label" style="color:rgba(255,255,255,.7)">Visit Us</p>
+  <h2>Come Taste the Difference</h2>
+  <p style="opacity:.85;max-width:480px;margin:0 auto">476, 119, Wipro St, Omr, Sholinganallur, Chennai, Tamil Nadu 600119, India</p>
+  <div class="cta-btns">
+    <a href="https://wa.me/919791211433?text=Hi!%20I%20came%20across%20Hyderabadi%20Bhai%20Biryani%20and%20would%20like%20to%20place%20an%20order.%20Could%20you%20please%20share%20the%20menu%20and%20availability%3F" class="cta-btn-w">💬 WhatsApp Order</a>
+    <a href="tel:097912 11433" class="cta-btn-o">📞 097912 11433</a>
+    <a href="https://maps.google.com/?cid=10108606139457570846" class="cta-btn-o">📍 Directions</a>
+  </div>
+</div>
+<footer>© 2026 HYDERABADi BHAi BiRYANi · 476, 119, Wipro St, Omr, Sholinganallur, Chennai, Tamil Nadu 600119, India</footer>
+<a href="https://wa.me/919791211433?text=Hi!%20I%20came%20across%20Hyderabadi%20Bhai%20Biryani%20and%20would%20like%20to%20place%20an%20order.%20Could%20you%20please%20share%20the%20menu%20and%20availability%3F" class="wa-float" title="Chat on WhatsApp" aria-label="WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+<script>
+if(window.innerWidth>768){
+  const hp=document.getElementById('hp'),ps=document.getElementById('ps');
+  window.addEventListener('scroll',()=>{
+    const y=window.scrollY;
+    if(hp)hp.style.transform='translateY('+y*.3+'px)';
+    if(ps){const r=ps.closest('.parallax-strip').getBoundingClientRect();ps.style.transform='translateY('+(r.top*.2)+'px)'}
+  },{passive:true});
+}
+</script>
+</body></html>
